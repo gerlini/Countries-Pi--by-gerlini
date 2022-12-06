@@ -1,0 +1,70 @@
+*{
+    /* border: 1px red solid ; */
+}
+.detailandactivities{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.Countryinfo,.detailact{
+    margin: 80px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 13px 1px rgba(0, 0, 0, 0.295);
+    background-color: rgba(0, 0, 0, 0.253);
+}
+.allactivities{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.cardactivity{
+    width: 200px;
+    margin: 10px;
+    border: rgb(61, 61, 61) 1px solid;
+    border-radius: 15px;
+    box-shadow: 0 3px 13px 1px rgba(0, 0, 0, 0.295);
+    margin-bottom: 40px;
+}
+.difficultyandid,.durationandseason{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;   
+    justify-content: space-around;
+}
+.mainimg{
+    width: 300px;
+    height: auto;
+}
+.Countryinfo{
+    
+    display: flex;
+    flex-direction: column;
+}
+.continentandregion,.capitalandid,.areaandpopulation{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 600px;
+    margin: 10px;
+    
+}
+
+.contienentcontainer,.regioncontainer,.capitalcontainer,.idcontainer,.areacontainer,.populationcontainer{
+    border: black 1px solid;
+    width: 200px;
+    margin: 10px;
+    border: rgb(61, 61, 61) 1px solid;
+    border-radius: 15px;
+    box-shadow: 0 3px 13px 1px rgba(0, 0, 0, 0.295);
+    background-color: rgba(240, 248, 255, 0.171);
+}

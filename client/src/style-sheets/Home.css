@@ -1,0 +1,51 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.cards{
+    margin-top: 60px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.searchandfilters{
+    display: flex;
+    margin-top: 60px;
+    padding: 0;
+    width: 100%;
+    justify-content: space-evenly;
+    
+}
+
+.Order,.Filters{
+    
+    margin-top: -50px;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.selectbypopulation,.selectbyname,.filterbyactivity,.filterbycontinent{
+    width: 200px;
+    height: 71px;
+    color: black;
+    border-color: transparent;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0/9%);
+    background-color: rgba(255, 255, 255, 0.37);
+    font-size: 22px;
+    cursor:pointer;
+}
+.selects,.selects2{
+    display: flex;
+    flex-direction: row;
+}
+.selectbypopulation,.filterbyactivity{
+    border-top-left-radius: 1px;
+    border-bottom-left-radius: 1px;
+}
+.selectbyname,.filterbycontinent{
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+}

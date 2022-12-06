@@ -1,0 +1,53 @@
+*{
+    text-decoration:none;
+    
+}
+.nav-bar{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.253);
+    box-shadow: 0 3px 13px 1px rgba(0, 0, 0, 0.295);
+    backdrop-filter: blur(4px);
+    align-items: center;
+    font-size:large;
+    width: auto;
+    padding: 0px;
+    margin: 0px;
+ 
+  }
+ 
+
+.img{
+  display: flex;
+  margin-left: 20px;
+  width: 400px;
+}
+
+.toinicio{
+    text-decoration:none;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 900px;
+    color: white;
+    transition: all 250ms; 
+}
+
+.tocreate{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 100px;
+    transition: all 250ms; 
+    
+}
+.tocreatet:hover,.toiniciot:hover{
+    color: white;
+    /* scale: 102%; */
+    transition: all 250ms; 
+    
+
+}
+
+.tocreatet,.toiniciot{
+    color: black;
+    text-decoration: none;
+    transition: all 250ms; 
+}

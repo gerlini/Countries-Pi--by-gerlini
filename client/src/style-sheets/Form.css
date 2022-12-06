@@ -1,0 +1,165 @@
+*{
+    /* border: red 1px solid; */
+    list-style:none;
+}
+.form{
+
+display: flex;
+justify-content: center;
+height: 720px;
+width: 1200px;
+margin-left: 360px;
+}
+.selectname,.season{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    height:100px ;
+    display: flex;
+    align-items: center;
+    width: 1000px; 
+}
+.difficulty,.ubication,.ubications,.button{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    height:100px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+}
+.title,.selects,.imput{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    height:50px ;
+    width: 400px;
+}
+.titleduration{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    height: 20px;
+}
+.duration{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center;
+    height:100px ;
+}
+.inputduration{
+    width: 290px;
+    height: 80px;
+    color: black;
+    border-color: transparent;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0/9%);
+    background-color: rgba(255, 255, 255, 0.37);
+    font-size: 22px;
+    cursor:pointer;
+}
+.selectubication{
+    width: 300px;
+    height: 80px;
+    color: black;
+    border-color: transparent;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0/9%);
+    background-color: rgba(255, 255, 255, 0.37);
+    font-size: 22px;
+    cursor:pointer;
+}
+
+
+.ubications{
+    display: flex;
+    flex-direction: row;
+}
+.input-text,.selectseason{ 
+    height: 66px;
+    width: 300px;
+    border-color: transparent;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0/9%);
+    background-color: rgba(255, 255, 255, 0.356);
+    color: black;
+    font-size: 22px;
+    margin-left: 350px;
+}
+
+   .input-text::placeholder {
+    color: black;
+  }
+
+.ubicationcontainer{
+    display: flex;
+    flex-direction: row-reverse;
+    border-color: transparent;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0/9%);
+    background-color: rgba(255, 255, 255, 0.356);
+    margin: 2px;
+    height: 70px;
+    width: 80px;
+    font-size: 12px;
+    align-items: center;
+  }
+  .btncontainer{
+    display: flex;
+    height: 70px;
+    
+  }
+
+  .delete{
+    margin: 5px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.356);
+    box-shadow: 0 3px 13px 1px rgb(0 0 0/9%);
+    border-color: transparent;
+  }
+  .delete:hover{
+    scale: 105%; 
+    cursor:pointer;
+    box-shadow: 0 3px 13px 1px rgba(121, 121, 121, 0.322);
+  }
+.titlecontainer{
+    
+    height: 70px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+}
+.titlecountry{
+    
+    display: flex;
+    justify-content: center;
+}
+.submitbtn{
+    width: 250px;
+    height: 80px;
+    border-color: transparent;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0/9%);
+    background-color: rgba(255, 255, 255, 0.356);
+    color: black;
+    font-size: 22px;
+}
+.submitbtn:hover{
+    cursor:pointer;
+    scale: 101%;  
+    animation: all 250ms; 
+    box-shadow: 0 3px 13px 1px rgba(82, 82, 82, 0.295);
+}
+.errors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    height: 70px;
+    margin-left: 20px;
+}
