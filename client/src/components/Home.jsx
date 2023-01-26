@@ -72,7 +72,8 @@ export default function Home() {
   return (
     <div className="home">
       <Navbar />
-      <div className="searchandfilters">
+      <div className="searchandfilters">  
+      {/* searchandfilters Contenedor para ordenamientos , filtros y barra de busqyeda */}
         <div className="Order">
           <h3>Ordenar por:</h3>
           <div className="selects"><div className="bypopulation">
@@ -133,6 +134,7 @@ export default function Home() {
       </div>
 
       <div className="cards">
+        {/* Contenedor donde se renderizan las tarjetas   de los paises */}
         {currentCountries?.map((c) => {
           return (
             <div key={c.id}>

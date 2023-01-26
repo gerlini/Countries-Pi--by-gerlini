@@ -115,11 +115,3 @@ router.post("/activity", async (req, res) => {
 
   
 module.exports = router;
-
-// [{
-//     "name": "fuchibol",
-//     "difficulty": 5,
-//     "duration": 2,
-//     "season":"winter",
-//     "countries":"peru"
-//     }]
