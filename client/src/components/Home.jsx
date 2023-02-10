@@ -73,8 +73,9 @@ export default function Home() {
     <div className="home">
       <Navbar />
       <div className="searchandfilters">  
-      {/* searchandfilters Contenedor para ordenamientos , filtros y barra de busqyeda */}
-        <div className="Order">
+
+      {/* searchandfilters Contenedor para ordenamientos , filtros y barra de busqueda */}
+        <div className="Orders">
           <h3>Ordenar por:</h3>
           <div className="selects">
             <div className="bypopulation">
@@ -94,7 +95,8 @@ export default function Home() {
               <option value="atoz">A-Z</option>
               <option value="ztoa">Z-A</option>
             </select>
-          </div></div>
+          </div>
+          </div>
           
         </div>
 
@@ -132,6 +134,7 @@ export default function Home() {
           </div>
           </div>
         </div>
+
       </div>
 
       <div className="cards">
