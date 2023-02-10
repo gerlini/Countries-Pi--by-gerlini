@@ -76,7 +76,8 @@ export default function Home() {
       {/* searchandfilters Contenedor para ordenamientos , filtros y barra de busqyeda */}
         <div className="Order">
           <h3>Ordenar por:</h3>
-          <div className="selects"><div className="bypopulation">
+          <div className="selects">
+            <div className="bypopulation">
             <select className="selectbypopulation" onChange={(n) => handleSelectByPopulation(n)}>
               <option selected disabled>
                 Habitantes

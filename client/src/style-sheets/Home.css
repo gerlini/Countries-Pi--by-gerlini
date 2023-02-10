@@ -1,5 +1,5 @@
 /* *{
-    border: 1px red solid;
+    outline: 1px red solid;
 } */
 body{
     font-family: 'Open Sans', sans-serif;
@@ -13,6 +13,7 @@ body{
     animation: all 250ms;  
 }
 .searchandfilters{
+    outline: 1px red solid;
     display: flex;
     margin-top: 60px;
     padding: 0;
@@ -22,7 +23,7 @@ body{
 }
 
 .Order,.Filters{
-    
+    outline: 1px red solid;
     margin-top: -50px;
     width: 400px;
     height: 100px;
@@ -31,6 +32,7 @@ body{
 }
 
 .selectbypopulation,.selectbyname,.filterbyactivity,.filterbycontinent{
+    
     width: 200px;
     height: 71px;
     color: black;
@@ -40,11 +42,12 @@ body{
     font-size: 22px;
     cursor:pointer;
 }
-.selects,.selects2{
+.selects ,.selects2{
     display: flex;
     flex-direction: row;
 }
 .selectbypopulation,.filterbyactivity{
+    
     border-top-left-radius: 1px;
     border-bottom-left-radius: 1px;
 }

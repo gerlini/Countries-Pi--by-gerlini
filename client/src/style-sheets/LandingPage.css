@@ -19,7 +19,7 @@
     animation-direction:alternate-reverse;
     animation-duration: 15s;
     animation-iteration-count: infinite;
-    animation-play-state: runing;
+    animation-play-state: running;
     animation-timing-function: ease-in-out;
    
 }
@@ -97,6 +97,7 @@ border-color: white;
 transition: all 400ms linear; 
 }
 .joinbtn:hover{
+    cursor: pointer;
     color: #1a73e8;
     background-color: white;
     transition: all 250ms linear; 
