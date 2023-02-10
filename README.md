@@ -184,8 +184,4 @@ __IMPORTANTE__: No está permitido utilizar los filtrados, ordenamientos y pagin
   - Recibe los datos recolectados desde el formulario controlado de la ruta de creación de actividad turística por body
   - Crea una actividad turística en la base de datos, relacionada con los países correspondientes
 
-## Testing
 
-- [ ] Al menos tener un componente del frontend con sus tests respectivos
-- [ ] Al menos tener una ruta del backend con sus tests respectivos
-- [ ] Al menos tener un modelo de la base de datos con sus tests respectivos
