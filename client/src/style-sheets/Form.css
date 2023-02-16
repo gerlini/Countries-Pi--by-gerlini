@@ -2,7 +2,6 @@
     list-style:none;
 }
 .form{
-
 display: flex;
 justify-content: center;
 height: 720px;
@@ -106,7 +105,6 @@ margin-left: 360px;
   .btncontainer{
     display: flex;
     height: 70px;
-    
   }
 
   .delete{
@@ -126,7 +124,6 @@ margin-left: 360px;
     box-shadow: 0 3px 13px 1px rgba(121, 121, 121, 0.322);
   }
 .titlecontainer{
-    
     height: 70px;
     width: 150px;
     display: flex;

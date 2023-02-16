@@ -52,8 +52,6 @@ export function getDetail(id) {
     };
     
 };
-
-
 export function getActivities() {
     return async function (dispatch) {
       try{
@@ -67,35 +65,30 @@ export function getActivities() {
     }
     };
 };
-
 export function orderByName(payload) {
     return {
       type: "ORDER_BY_NAME",
       payload,
     };
 };
-
 export function orderByPopulation(payload) {
     return {
       type: "ORDER_BY_POPULATION",
       payload,
     };
 };
-
 export function filterByContinent(payload) {
     return {
       type: "FILTER_BY_CONTINENT",
       payload,
     };
 };
-
 export function filterByActivities(payload) { 
     return {
       type: "FILTER_BY_ACTIVITIES",
       payload,
     };
 };
-
 export function postActivity(payload) {
     return async function () {
       const json = await axios.post("http://localhost:3001/activity", payload);
@@ -105,7 +98,6 @@ export function postActivity(payload) {
       };
     };
 };
-
 export function Clean() {
   return {
     type: "CLEAN",
