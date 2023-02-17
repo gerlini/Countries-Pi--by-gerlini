@@ -19,7 +19,6 @@ export function getCountries() {
         })
     }
 }
-
 export function getNameCountries(name) {
     return async function (dispatch) {
       try {
@@ -35,7 +34,6 @@ export function getNameCountries(name) {
       }
     };
 };
-
 export function getDetail(id) {
     return async function (dispatch) {
       try {
@@ -50,7 +48,6 @@ export function getDetail(id) {
       }
       
     };
-    
 };
 export function getActivities() {
     return async function (dispatch) {
