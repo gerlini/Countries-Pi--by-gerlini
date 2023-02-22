@@ -69,8 +69,6 @@ margin-left: 360px;
     font-size: 22px;
     cursor:pointer;
 }
-
-
 .ubications{
     display: flex;
     flex-direction: row;
@@ -85,11 +83,9 @@ margin-left: 360px;
     font-size: 22px;
     margin-left: 350px;
 }
-
    .input-text::placeholder {
     color: black;
   }
-
 .ubicationcontainer{
     display: flex;
     flex-direction: row-reverse;
@@ -106,7 +102,6 @@ margin-left: 360px;
     display: flex;
     height: 70px;
   }
-
   .delete{
     margin: 5px;
     width: 20px;

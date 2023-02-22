@@ -9,7 +9,6 @@ export const FILTER_BY_ACTIVITIES = "FILTER_BY_ACTIVITIES";
 export const POST_ACTIVITIES = "POST_ACTIVITIES";
 export const GET_DETAIL = "GET_DETAIL";
 export const CLEAN = "CLEAN";
-
 export function getCountries() {
     return async function(dispatch){
         var json = await axios.get("http://localhost:3001/countries");
