@@ -17,9 +17,7 @@ body{
     width: 100%;
     justify-content: space-evenly;
 }
-
 .Orders,.Filters{
-    
     margin-top: -50px;
     width: 400px;
     height: 100px;
