@@ -24,7 +24,6 @@ body{
     display: flex;
     flex-direction: column;
 }
-
 .selectbypopulation,.selectbyname,.filterbyactivity,.filterbycontinent{
     width: 200px;
     height: 71px;
