@@ -4,16 +4,36 @@
 # Home
 ![Preview](client/public/home.png)
 
-# Serach Bar
+En la home vamos a encontrar lo siguiente : 
+Navbar que con un logo que al presionarlo te retorna a la Landing Page , el boton de inicio que te lleva al home , y Crear actividad que te redireccion al formulario de creacion de nueva actividad . 
+
+# Search Bar
 ![Preview](client/public/searchbar.png)
+
+En esta vamos a poder buscar de forma dinamica ,  es decir que el contenido de la home se va a ir actualizando dependiendo de lo que contenga el imput text.
 
 # Filters & Orders
 ![Preview](client/public/filterandorder.png)
 
+Filtros:
+Vamos a poder filtrar por una actividad especifica  o por continente.
+Ordenamientos :
+Vamos a poder elegir ordenar de manera alfabetica o por cantidad de habitante de pais 
+
 # New Activity
 ![Preview](client/public/activity.png)
 
+Para crear una nueva actividad debemos : 
+Definir un nombre .
+Definir dificultad (eentre 1 y 5).
+Definir duracion que debe ser un valor numerico.
+Indicar en que esetacion del año se llevara a cabo. 
+Elegir uno o mas paises en donde se llevara a cabo dicha actividad.
+
+Una vez creada esta actividad  , empieza a aparecer en el select de filtro por actividad .
+
 ![Preview](client/public/trekking.png)
+
 ## Objetivos del Proyecto
 
 - Construir una App utlizando React, Redux, Node y Sequelize.
