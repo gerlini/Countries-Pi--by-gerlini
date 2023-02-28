@@ -4,21 +4,21 @@
 # Home
 ![Preview](client/public/home.png)
 
-En la home vamos a encontrar lo siguiente : 
-Navbar que con un logo que al presionarlo te retorna a la Landing Page , el boton de inicio que te lleva al home , y Crear actividad que te redireccion al formulario de creacion de nueva actividad . 
+En la página principal, encontrarás:
 
-# Search Bar
+La barra de navegación, que contiene un logotipo que te devuelve a la página principal si haces clic en él, un botón de inicio que te lleva a la página principal, y un botón de "Crear actividad" que te lleva al formulario de creación de una nueva actividad.
+
+# Barra de busqueda 
 ![Preview](client/public/searchbar.png)
 
-En esta vamos a poder buscar de forma dinamica ,  es decir que el contenido de la home se va a ir actualizando dependiendo de lo que contenga el imput text.
+En esta sección, podrás realizar búsquedas de forma dinámica. Esto significa que el contenido de la página se actualizará automáticamente dependiendo de lo que escribas en el campo de texto de búsqueda.
 
 # Filters & Orders
 ![Preview](client/public/filterandorder.png)
 
-Filtros:
-Vamos a poder filtrar por una actividad especifica  o por continente.
-Ordenamientos :
-Vamos a poder elegir ordenar de manera alfabetica o por cantidad de habitante de pais 
+Filtros: En esta sección, se podrán aplicar filtros para buscar una actividad específica o filtrar por continente.
+
+Ordenamientos: Se podrá ordenar el contenido de diferentes maneras, ya sea de forma alfabética o según la cantidad de habitantes de cada país.
 
 # New Activity
 ![Preview](client/public/activity.png)
