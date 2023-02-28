@@ -1,4 +1,19 @@
+# Landing Page
+![Preview](client/public/landing.png)
 
+# Home
+![Preview](client/public/home.png)
+
+# Serach Bar
+![Preview](client/public/searchbar.png)
+
+# Filters & Orders
+![Preview](client/public/filterandorder.png)
+
+# New Activity
+![Preview](client/public/activity.png)
+
+![Preview](client/public/trekking.png)
 ## Objetivos del Proyecto
 
 - Construir una App utlizando React, Redux, Node y Sequelize.
